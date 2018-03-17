@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, anysize, fancyhdr, multicol, graphicx, scalerel}
+\def\windows{\scalerel*{\includegraphics{windows}}{X}}
+\def\cmdkey{\scalerel*{\includegraphics{command}}{X}}
+%\title{Keyboard Shortcuts}
+
+\marginsize{0.5 in}{0.5 in}{0.25 in}{1 in}
+
+\setlength{\columnseprule}{1pt}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0 pt}
+\fancyfoot[R]{\Large Made in \LaTeX\ by Erik Fisher}
+
+\begin{document}
+
+\centering\Huge\textbf{Keyboard Shortcuts}
+
+
+
+\begin{multicols*}{2}
+\centering\LARGE\underline{\textbf{Windows}}
+\begin{align*}
+\textsf{Cut} :\ &\textsf{Ctrl + X} \\
+\textsf{Copy} :\ &\textsf{Ctrl + C} \\
+\textsf{Paste} :\ &\textsf{Ctrl + V} \\
+\\
+\textsf{Bold} :\ &\textsf{Ctrl + B} \\
+\textsf{Italics} :\ &\textsf{Ctrl + I} \\
+\textsf{Underline} :\ &\textsf{Ctrl + U}\\
+\textsf{Print} :\ &\textsf{Ctrl\ + P}\\
+\\
+\textsf{Show Desktop} :\ &\textsf{\windows\ + D} \\
+\textsf{Switch Window} :\ &\textsf{Alt + Tab} \\
+\textsf{Close Window} :\ &\textsf{Ctrl + W} \\
+\textsf{Quit Application} :\ &\textsf{Alt + F4} \\
+\end{align*}
+\newline
+\vfill\null
+\columnbreak
+\LARGE\underline{\textbf{macOS}}
+\begin{align*}
+\textsf{Cut} :\ &\textsf{\cmdkey\ + X} \\
+\textsf{Copy} :\ &\textsf{\cmdkey\ + C} \\
+\textsf{Paste} :\ &\textsf{\cmdkey\ + V} \\
+\\
+\textsf{Bold} :\ &\textsf{\cmdkey\ + B} \\
+\textsf{Italics} :\ &\textsf{\cmdkey\ + I} \\
+\textsf{Underline} :\ &\textsf{\cmdkey\ + U}\\
+\textsf{Print} :\ &\textsf{\cmdkey\ + P}\\
+\\
+\textsf{Show Desktop} :\ &\textsf{\cmdkey\ + F3} \\
+\textsf{Switch App} :\ &\textsf{\cmdkey\ + Tab} \\
+\textsf{Switch Window} :\ &\textsf{\cmdkey\ + \Huge`} \\
+\textsf{Close Window} :\ &\textsf{\cmdkey\ + W} \\
+\textsf{Quit Application} :\ &\textsf{\cmdkey\ + Q} \\
+\end{align*}
+\end{multicols*}
+
+\end{document}
